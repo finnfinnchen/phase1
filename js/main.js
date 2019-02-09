@@ -1,4 +1,4 @@
-// land and water use 
+// land and water use
 $("#btn1").click(function(event){
   $("#btext1").css("fill","#FFFFFF");
   $("#btn1").css("fill","#000000");
