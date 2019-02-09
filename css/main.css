@@ -1,0 +1,58 @@
+
+	.st0{fill:#04151F;}
+	.st1{enable-background:new;}
+	.st3{font-family:'FiraSans-LightItalic';}
+	.st4{font-size:12px;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:0.8417;stroke-miterlimit:10;}
+	.st6{opacity:0.88;}
+	.st7{font-family:'FiraSans-SemiBold';}
+	.st8{font-size:10.3603px;}
+	.st9{font-size:38px;}
+	.st10{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st11{fill:none;}
+	.st14{letter-spacing:1;}
+	.st15{letter-spacing:3;}
+
+.bkcolor{
+  fill:#04151F;
+}
+.text{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
+  font-size:14px;
+}
+
+.btn_text{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+.btn_rect{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:0.8417;
+  stroke-miterlimit:10;
+}
+.link_text{
+  fill:#FFFFFF;
+  font-family:'FiraSans-LightItalic';
+  font-size:12px;
+}
+.st1{
+  enable-background:new;
+}
+
+.title{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:38px;
+}
+.line{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:4;
+  stroke-miterlimit:10;
+}
