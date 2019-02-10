@@ -22,18 +22,49 @@
   src:url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
   font-size:14px;
 }
-
-.btn_text{
+#b1_tec{
+  fill:#FFFFFF;
+}
+#b1_text{
+  fill:#04151F;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+#b2_text{
   fill:#FFFFFF;
   font-family:'Fira Sans', sans-serif;
   src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
   font-size:10.3603px;
 }
-.btn_rect{
+
+#b2_tec{
   fill:none;
   stroke:#FFFFFF;
   stroke-width:0.8417;
   stroke-miterlimit:10;
+}
+#b3_text{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+
+#b3_tec{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:0.8417;
+  stroke-miterlimit:10;
+}
+.btn{
+  cursor: pointer;
+}
+#pic2{
+  display:none;
+}
+#pic3{
+  display:none;
 }
 .link_text{
   fill:#FFFFFF;
@@ -55,4 +86,35 @@
   stroke:#FFFFFF;
   stroke-width:4;
   stroke-miterlimit:10;
+}
+
+/*production growth1*/
+  .st0{fill:#B8D200;}
+  .st5{fill:#4B6C27;}
+  .st8{fill:#3D5121;}
+  .st9{fill:#CDD58B;}
+  .st10{fill:#85B326;}
+  .st11{fill:#ABCE25;}
+  .st12{fill:#839A25;}
+  .st13{fill:#62873F;}
+  .st14{fill:#45A636;}
+
+.text{
+  fill:#4B6C27;
+  font-size:12px;
+  font-family: 'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:300i")
+}
+.number{
+  fill:#FFFFFF;
+  font-size:13px;
+  font-family: 'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600i");
+}
+.btn_pg1{
+  cursor:pointer;
+}
+.btn_pg1.faded{
+  opacity:0.1;
+  cursor:pointer;
 }
