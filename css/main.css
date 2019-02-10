@@ -26,10 +26,10 @@
     display:none;
 
 }
-
+body{
+    background-color: #04151F;
 }
-.bgcol{
-    fill:#04161E
+
 }
 
 .btitle{
