@@ -12,3 +12,11 @@ $("#btn1").click(function(event){
     $("#soil").show();
   }
 })
+
+// water footprint
+$("#bnt4").mouseenter(function(event){
+  $("#grey").show();  
+    $("#bnt4").mouseleave(function(event){
+  $("#grey").hide();  
+    
+})
