@@ -1,17 +1,40 @@
-
-	.st0{fill:#04151F;}
-	.st1{enable-background:new;}
-	.st3{font-family:'FiraSans-LightItalic';}
-	.st4{font-size:12px;}
-	.st5{fill:none;stroke:#FFFFFF;stroke-width:0.8417;stroke-miterlimit:10;}
-	.st6{opacity:0.88;}
-	.st7{font-family:'FiraSans-SemiBold';}
-	.st8{font-size:10.3603px;}
-	.st9{font-size:38px;}
-	.st10{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st11{fill:none;}
-	.st14{letter-spacing:1;}
-	.st15{letter-spacing:3;}
+.click{
+  fill:#4B6C27;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+	font-size:14px;
+}
+.closed{
+  opacity:0;
+}
+#pop_up{
+  display:none;
+}
+/*resource 1*/
+#pic_soil{
+  display: none;
+}
+#btnsoil_tec{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:0.8417;
+  stroke-miterlimit:10;
+}
+#btnsoil_text{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+#btnwater_tec{
+  fill:#FFFFFF;
+}
+#btnwater_text{
+  fill:#04151F;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
 
 .bkcolor{
   fill:#04151F;
