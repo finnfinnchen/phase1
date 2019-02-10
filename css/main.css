@@ -13,6 +13,18 @@
 	.st11{fill:none;}
 	.st14{letter-spacing:1;}
 	.st15{letter-spacing:3;}
+
+.gr1{
+display:none;
+}
+.btopacity{
+	opacity:0.88;
+}
+.btn_font{
+fill:#FFFFFF;
+font-family:'FiraSans-SemiBold';
+font-size:10.3603px;
+}
 .legendtitle{
     fill:#FFFFFF;
 	font-family:'FiraSans-SemiBold';
@@ -24,10 +36,8 @@
     }
 .waterpic{
     display:none;
-
 }
-
-}
+ 
 .bgcol{
     fill:#04161E
 }
