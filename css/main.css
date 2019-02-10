@@ -1,7 +1,6 @@
 
 	.st0{fill:#04151F;}
 	.st1{enable-background:new;}
-    .st2{opacity:0.88;}
 	.st3{font-family:'FiraSans-LightItalic';}
 	.st4{font-size:12px;}
 	.st5{fill:none;stroke:#FFFFFF;stroke-width:0.8417;stroke-miterlimit:10;}
@@ -13,32 +12,6 @@
 	.st11{fill:none;}
 	.st14{letter-spacing:1;}
 	.st15{letter-spacing:3;}
-.legendtitle{
-    fill:#FFFFFF;
-	font-family:'FiraSans-SemiBold';
-    font-size:10.3603px;}
-.rectangle{
-    fill:none;
-    stroke:#FFFFFF;
-    stroke-miterlimit:10;
-    }
-.waterpic{
-    display:none;
-
-}
-body{
-    background-color: #04151F;
-}
-
-}
-
-.btitle{
-  opacity:0;
-  cursor: pointer;
-}
-.btitle:hover{
-  opacity:0.4;
-}
 
 .bkcolor{
   fill:#04151F;

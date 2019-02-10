@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // land and water use
 $("#btn1").click(function(event){
   $("#btext1").css("fill","#FFFFFF");
@@ -12,3 +13,5 @@ $("#btn1").click(function(event){
     $("#soil").show();
   }
 })
+=======
+>>>>>>> parent of 54169ed... land
