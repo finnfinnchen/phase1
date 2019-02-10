@@ -1,3 +1,40 @@
+//overview3
+
+$("#btn_ontext").click(function(event){
+  $('#pop_up').css('display','block')
+  })
+$("#xpopup").click(function(event){
+    $('#pop_up').css('display','none')
+  })
+//resource 1
+$("#btn_w").click(function(event){
+  $("#btnwater_tec").css("fill","#FFFFFF");
+  $("#btnwater_text").css("fill","#04151F");
+  $("#btnsoil_text").css('fill','#FFFFFF');
+  $("#btnsoil_tec").css('fill','none');
+  $("#btnsoil_tec").css('stroke','#FFFFFF');
+  if($('#pic_soil').css("display") == 'none'){
+    $("#pic_water").show();
+  }
+  else{
+    $("#pic_soil").hide();
+    $("#pic_water").show();
+  }
+  })
+  $("#btn_s").click(function(event){
+    $("#btnsoil_tec").css("fill","#FFFFFF");
+    $("#btnsoil_text").css("fill","#04151F");
+    $("#btnwater_text").css('fill','#FFFFFF');
+    $("#btnwater_tec").css('fill','none');
+    $("#btnwater_tec").css('stroke','#FFFFFF');
+    if($('#pic_water').css("display") == 'none'){
+      $("#pic_soil").show();
+    }
+    else{
+      $("#pic_water").hide();
+      $("#pic_soil").show();
+    }
+    })
 //chile water scarcity
 $("#btn1").click(function(event){
   $("#b1_tec").css("fill","#FFFFFF");
