@@ -35,7 +35,36 @@ $("#btn_w").click(function(event){
       $("#pic_soil").show();
     }
     })
-//chile water scarcity
+//10
+$("#btn_languse").click(function(event){
+  $("#land_tec").css("fill","#FFFFFF");
+  $("#land_text").css("fill","#04151F");
+  $("#water_text").css('fill','#FFFFFF');
+  $("#water_tec").css('fill','none');
+  $("#water_tec").css('stroke','#FFFFFF');
+  if($('#water').css("display") == 'none'){
+    $("#land").show();
+  }
+  else{
+    $("#water").hide();
+    $("#land").show();
+  }
+  })
+  $("#btn_wateruse").click(function(event){
+    $("#water_tec").css("fill","#FFFFFF");
+    $("#water_text").css("fill","#04151F");
+    $("#land_text").css('fill','#FFFFFF');
+    $("#land_tec").css('fill','none');
+    $("#land_tec").css('stroke','#FFFFFF');
+    if($('#land').css("display") == 'none'){
+      $("#water").show();
+    }
+    else{
+      $("#land").hide();
+      $("#water").show();
+    }
+    })
+//chile water scarcity 11
 $("#btn1").click(function(event){
   $("#b1_tec").css("fill","#FFFFFF");
   $("#b1_text").css("fill","#04151F");
@@ -88,6 +117,98 @@ $("#btn3").click(function(event){
     $("#pic2").hide();
     $("#pic1").hide();
     $("#pic3").show();
+  }
+})
+//12
+$("#btn_grey").click(function(event){
+  $("#grey_tec").css("fill","#FFFFFF");
+  $("#grey_text").css("fill","#04151F");
+  $("#all_text").css('fill','#FFFFFF');
+  $("#all_tec").css('fill','none');
+  $("#all_tec").css('stroke','#FFFFFF');
+  $("#green_text").css('fill','#FFFFFF');
+  $("#green_tec").css('fill','none');
+  $("#green_tec").css('stroke','#FFFFFF');
+  $("#blue_text").css('fill','#FFFFFF');
+  $("#blue_tec").css('fill','none');
+  $("#blue_tec").css('stroke','#FFFFFF');
+  if($('#all').css("display") == 'none'&& $('#green').css("display") == 'none'&& $('#blue').css("display") == 'none'){
+    $("#grey").show();
+  }
+  else{
+    $("#all").hide();
+    $("#green").hide();
+    $("#blue").hide();
+    $("#grey").show();
+  }
+})
+
+$("#btn_all").click(function(event){
+  $("#all_tec").css("fill","#FFFFFF");
+  $("#all_text").css("fill","#04151F");
+  $("#grey_text").css('fill','#FFFFFF');
+  $("#grey_tec").css('fill','none');
+  $("#grey_tec").css('stroke','#FFFFFF');
+  $("#green_text").css('fill','#FFFFFF');
+  $("#green_tec").css('fill','none');
+  $("#green_tec").css('stroke','#FFFFFF');
+  $("#blue_text").css('fill','#FFFFFF');
+  $("#blue_tec").css('fill','none');
+  $("#blue_tec").css('stroke','#FFFFFF');
+  if($('#grey').css("display") == 'none'&& $('#green').css("display") == 'none'&& $('#blue').css("display") == 'none'){
+    $("#all").show();
+  }
+  else{
+    $("#all").show();
+    $("#green").hide();
+    $("#blue").hide();
+    $("#grey").hide();
+  }
+})
+
+$("#btn_green").click(function(event){
+  $("#green_tec").css("fill","#FFFFFF");
+  $("#green_text").css("fill","#04151F");
+  $("#all_text").css('fill','#FFFFFF');
+  $("#all_tec").css('fill','none');
+  $("#all_tec").css('stroke','#FFFFFF');
+  $("#grey_text").css('fill','#FFFFFF');
+  $("#grey_tec").css('fill','none');
+  $("#grey_tec").css('stroke','#FFFFFF');
+  $("#blue_text").css('fill','#FFFFFF');
+  $("#blue_tec").css('fill','none');
+  $("#blue_tec").css('stroke','#FFFFFF');
+  if($('#all').css("display") == 'none'&& $('#grey').css("display") == 'none'&& $('#blue').css("display") == 'none'){
+    $("#green").show();
+  }
+  else{
+    $("#all").hide();
+    $("#green").show();
+    $("#blue").hide();
+    $("#grey").hide();
+  }
+})
+
+$("#btn_blue").click(function(event){
+  $("#blue_tec").css("fill","#FFFFFF");
+  $("#blue_text").css("fill","#04151F");
+  $("#all_text").css('fill','#FFFFFF');
+  $("#all_tec").css('fill','none');
+  $("#all_tec").css('stroke','#FFFFFF');
+  $("#grey_text").css('fill','#FFFFFF');
+  $("#grey_tec").css('fill','none');
+  $("#grey_tec").css('stroke','#FFFFFF');
+  $("#green_text").css('fill','#FFFFFF');
+  $("#green_tec").css('fill','none');
+  $("#green_tec").css('stroke','#FFFFFF');
+  if($('#all').css("display") == 'none'&& $('#grey').css("display") == 'none'&& $('#green').css("display") == 'none'){
+    $("#blue").show();
+  }
+  else{
+    $("#all").hide();
+    $("#green").hide();
+    $("#blue").show();
+    $("#grey").hide();
   }
 })
 

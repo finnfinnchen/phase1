@@ -35,7 +35,49 @@
   src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
   font-size:10.3603px;
 }
-
+#water_tec{
+  fill:#FFFFFF;
+}
+#water_text{
+  ill:#04151F;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+#land_tec{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:0.8417;
+  stroke-miterlimit:10;
+}
+#land_text{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+.b_text{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+.tec{
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:0.8417;
+  stroke-miterlimit:10;
+}
+#all_tec{
+  fill:#FFFFFF;
+}
+#all_text{
+  ill:#04151F;
+  font-family:'Fira Sans', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Fira+Sans:600");
+  font-size:10.3603px;
+}
+/*---------------------------------------*/
 .bkcolor{
   fill:#04151F;
 }
@@ -87,6 +129,12 @@
   display:none;
 }
 #pic3{
+  display:none;
+}
+#land{
+  display:none;
+}
+.gf_hide{
   display:none;
 }
 .link_text{
