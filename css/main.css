@@ -14,6 +14,19 @@
 	.st14{letter-spacing:1;}
 	.st15{letter-spacing:3;}
 
+.number_font{
+    font-family:'FiraSans-SemiBold';
+	font-size:10.3603px;
+}
+
+.btn_black{
+    display: none;
+}
+.btn_black.visible{
+    opacity: 1;
+}
+
+
 .gr1{
 display:none;
 }
@@ -40,6 +53,21 @@ font-size:10.3603px;
  
 .bgcol{
     fill:#04161E
+}
+
+#soil_btn{
+  opacity:0.5;
+  cursor: pointer;
+}
+#soil_btn:hover{
+  opacity:1;
+}
+#water_btn{
+  opacity:0.5;
+  cursor: pointer;
+}
+#water_btn:hover{
+  opacity:1;
 }
 
 #btn1{
