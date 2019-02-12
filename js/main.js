@@ -222,3 +222,275 @@ $('.btn_pg1').mouseenter(function(event){
 $('.btn_pg1').mouseleave(function(event){
   $('.btn_pg1').removeClass('faded');
 })
+//section11_new newplayer
+$("#btn_export").click(function(event){
+  $("#export_tec").css("fill","#000000");
+  $("#export_text").css("fill","#FFFFFF");
+  $("#import_text").css('fill','#FFFFFF');
+  $("#import_tec").css('fill','none');
+  $("#import_tec").css('stroke','#FFFFFF');
+  if($('#section_import').css("display") == 'none'){
+    $("#section_export").css('display','block');
+  }
+  else{
+    $("#section_import").css('display','none');
+    $("#section_export").css('display','block');
+  }
+  })
+  $("#btn_import").click(function(event){
+    $("#import_tec").css("fill","#000000");
+    $("#import_text").css("fill","#FFFFFF");
+    $("#export_text").css('fill','#FFFFFF');
+    $("#export_tec").css('fill','none');
+    $("#export_tec").css('stroke','#FFFFFF');
+    if($("#section_export").css("display") == 'none'){
+      $("#section_import").css('display','block');
+    }
+    else{
+      $("#section_export").css('display','none');
+      $("#section_import").css('display','block');
+    }
+    })
+//section11_check years
+$('#btn2001').mouseenter(function(event){
+  $('#import_2001').addClass('show');
+})
+$('#btn2001').mouseleave(function(event){
+  $('#import_2001').removeClass('show');
+})
+//
+$('#btn2003').mouseenter(function(event){
+  $('#import_2003').addClass('show');
+})
+$('#btn2003').mouseleave(function(event){
+  $('#import_2003').removeClass('show');
+})
+//
+$('#btn2005').mouseenter(function(event){
+  $('#import_2005').addClass('show');
+})
+$('#btn2005').mouseleave(function(event){
+  $('#import_2005').removeClass('show');
+})
+//
+$('#btn2007').mouseenter(function(event){
+  $('#import_2007').addClass('show');
+})
+$('#btn2007').mouseleave(function(event){
+  $('#import_2007').removeClass('show');
+})
+//
+$('#btn2009').mouseenter(function(event){
+  $('#import_2009').addClass('show');
+})
+$('#btn2009').mouseleave(function(event){
+  $('#import_2009').removeClass('show');
+})
+//
+$('#btn2011').mouseenter(function(event){
+  $('#import_2011').addClass('show');
+})
+$('#btn2011').mouseleave(function(event){
+  $('#import_2011').removeClass('show');
+})
+//
+$('#btn2013').mouseenter(function(event){
+  $('#import_2013').addClass('show');
+})
+$('#btn2013').mouseleave(function(event){
+  $('#import_2013').removeClass('show');
+})
+//
+$('#btn2015').mouseenter(function(event){
+  $('#import_2015').addClass('show');
+})
+$('#btn2015').mouseleave(function(event){
+  $('#import_2015').removeClass('show');
+})
+//
+$('#btn2017').mouseenter(function(event){
+  $('#import_2017').addClass('show');
+})
+$('#btn2017').mouseleave(function(event){
+  $('#import_2017').removeClass('show');
+})
+//export_check_year
+$('#btnex2001').mouseenter(function(event){
+  $('#Export_2001').addClass('show');
+})
+$('#btnex2001').mouseleave(function(event){
+  $('#Export_2001').removeClass('show');
+})
+//
+$('#btnex2003').mouseenter(function(event){
+  $('#Export_2003').addClass('show');
+})
+$('#btnex2003').mouseleave(function(event){
+  $('#Export_2003').removeClass('show');
+})
+//
+$('#btnex2005').mouseenter(function(event){
+  $('#Export_2005').addClass('show');
+})
+$('#btnex2005').mouseleave(function(event){
+  $('#Export_2005').removeClass('show');
+})
+//
+$('#btnex2007').mouseenter(function(event){
+  $('#Export_2007').addClass('show');
+})
+$('#btnex2007').mouseleave(function(event){
+  $('#Export_2007').removeClass('show');
+})
+//
+$('#btnex2009').mouseenter(function(event){
+  $('#Export_2009').addClass('show');
+})
+$('#btnex2009').mouseleave(function(event){
+  $('#Export_2009').removeClass('show');
+})
+//
+$('#btnex2011').mouseenter(function(event){
+  $('#Export_2011').addClass('show');
+})
+$('#btnex2011').mouseleave(function(event){
+  $('#Export_2011').removeClass('show');
+})
+//
+$('#btnex2013').mouseenter(function(event){
+  $('#Export_2013').addClass('show');
+})
+$('#btnex2013').mouseleave(function(event){
+  $('#Export_2013').removeClass('show');
+})
+//
+$('#btnex2015').mouseenter(function(event){
+  $('#Export_2015').addClass('show');
+})
+$('#btnex2015').mouseleave(function(event){
+  $('#Export_2015').removeClass('show');
+})
+//
+$('#btnex2017').mouseenter(function(event){
+  $('#Export_2017').addClass('show');
+})
+$('#btnex2017').mouseleave(function(event){
+  $('#Export_2017').removeClass('show');
+})
+
+
+//section12
+
+$('.group-viz01').mouseenter(function(event){
+      $('.group-viz01').addClass('faded');
+      $(this).removeClass('faded');
+    })
+$('.group-viz01').mouseleave(function(event){
+      $('.group-viz01').removeClass('faded');
+});
+//
+$('#dominicon').mouseenter(function(event){
+      $('#num_dm').addClass('show');
+    })
+$('#dominicon').mouseleave(function(event){
+      $('#num_dm').removeClass('faded');
+});
+//
+
+$('#Mexico_c').mouseenter(function(event){
+      $('#num_Mx').addClass('show');
+    })
+$('#Mexico_c').mouseleave(function(event){
+      $('#num_Mx').removeClass('show');
+});
+//
+$('#peru_c').mouseenter(function(event){
+  $('#num_peru').addClass('show');
+    })
+$('#peru_c').mouseleave(function(event){
+      $('#num_peru').removeClass('show');
+});
+//
+$('#dominicon').mouseenter(function(event){
+      $('#num_dm').addClass('show');
+    })
+$('#dominicon').mouseleave(function(event){
+      $('#num_dm').removeClass('show');
+});
+//
+$('#USA_c').mouseenter(function(event){
+      $('#num_usa').addClass('show');
+    })
+$('#USA_c').mouseleave(function(event){
+      $('#num_usa').removeClass('show');
+});
+//
+$('#brazil_c').mouseenter(function(event){
+      $('#num_brazil').addClass('show');
+    })
+$('#brazil_c').mouseleave(function(event){
+      $('#num_brazil').removeClass('show');
+});
+//
+$('#kenya_c').mouseenter(function(event){
+      $('#num_kenya').addClass('show');
+    })
+$('#kenya_c').mouseleave(function(event){
+      $('#num_kenya').removeClass('show');
+});
+//
+$('#israel_c').mouseenter(function(event){
+      $('#num_israel').addClass('show');
+    })
+$('#israel_c').mouseleave(function(event){
+      $('#num_israel').removeClass('show');
+});
+//
+$('#spain').mouseenter(function(event){
+      $('#num_spain').addClass('show');
+    })
+$('#spain').mouseleave(function(event){
+      $('#num_spain').removeClass('show');
+});
+//
+$('#south_afri').mouseenter(function(event){
+      $('#num_south_afri').addClass('show');
+    })
+$('#south_afri').mouseleave(function(event){
+      $('#num_south_afri').removeClass('show');
+});
+//
+$('#chile_c').mouseenter(function(event){
+      $('#num_chile').addClass('show');
+    })
+$('#chile_c').mouseleave(function(event){
+      $('#num_chile').removeClass('show');
+});
+//
+$('#haiti').mouseenter(function(event){
+      $('#num_haiti').addClass('show');
+    })
+$('#haiti').mouseleave(function(event){
+      $('#num_haiti').removeClass('show');
+});
+//
+$('#venezuela').mouseenter(function(event){
+      $('#num_vene').addClass('show');
+    })
+$('#venezuela').mouseleave(function(event){
+      $('#num_vene').removeClass('show');
+});
+//
+$('#cameroon_c').mouseenter(function(event){
+      $('#num_cam').addClass('show');
+    })
+$('#cameroon_c').mouseleave(function(event){
+      $('#num_cam').removeClass('show');
+});
+//
+$('#indonesia').mouseenter(function(event){
+      $('#num_indonesia').addClass('show');
+    })
+$('#indonesia').mouseleave(function(event){
+      $('#num_indonesia').removeClass('show');
+});
