@@ -1,27 +1,27 @@
 // the use of resource
-$("#soil_btn").click(function(event){
-  $("#s_text").css("fill","#FFFFFF");
-  $("#s_rec").css("fill","#000000");
-  $("#w_text").css('fill','#000000');
-  $("#water_btn").css('fill','none','stroke','#3C3C3B');
-  if($('#water_consumption').css("display") == 'none'){
-    $("#soil_consumption").show();
+$("#soilbtn").click(function(event){
+  $("#stext").css("fill","#FFFFFF");
+  $("#srec").css("fill","#000000");
+  $("#wtext").css('fill','#000000');
+  $("#waterbtn").css('fill','none','stroke','#3C3C3B');
+  if($('#water1').css("display") == 'none'){
+    $("#soil1").show();
   }
   else{
-    $("#water_consumption").hide();
-    $("#soil_consumption").show();
+    $("#water1").hide();
+    $("#soil1").show();
   }
-$("#water_btn").click(function(event){
-  $("#w_text").css("fill","#FFFFFF");
-  $("#w_rec").css("fill","#000000");
-  $("#s_text").css('fill','#000000');
-  $("#soil_btn").css('fill','none','stroke','#3C3C3B');
-  if($('#soil_consumption').css("display") == 'none'){
-    $("#water_consumption").show();
+$("#waterbtn").click(function(event){
+  $("#wtext").css("fill","#FFFFFF");
+  $("#wrec").css("fill","#000000");
+  $("#stext").css('fill','#000000');
+  $("#soilbtn").css('fill','none','stroke','#3C3C3B');
+  if($('#soil1').css("display") == 'none'){
+    $("#water1").show();
   }
   else{
-    $("#soil_consumption").hide();
-    $("#water_consumption").show();
+    $("#soil1").hide();
+    $("#water1").show();
   }
 
 // land and water comparison
@@ -37,7 +37,6 @@ $("#btn1").click(function (event) {
     $("#water").hide();
     $("#land").show();
   }
-})
 
 $("#btn2").click(function (event) {
   $("#btext2").css("fill", "#FFFFFF");
@@ -51,4 +50,17 @@ $("#btn2").click(function (event) {
     $("#land").hide();
     $("#water").show();
   }
-}) 
+}); 
+    
+    
+// trade flow
+    $(document).ready(function() {
+
+    $('.group-viz01').on('mouseenter', function(event){
+      $('.group-viz01').addClass('faded');
+      $(this).removeClass('faded');
+    })
+
+    $('.group-viz01').on('mouseleave', function(event){
+      $('.group-viz01').removeClass('faded');
+    });

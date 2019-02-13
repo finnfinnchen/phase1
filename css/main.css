@@ -2,17 +2,84 @@
 	.st0{fill:#04151F;}
 	.st1{enable-background:new;}
     .st2{opacity:0.88;}
-	.st3{font-family:'FiraSans-LightItalic';}
+	.st3{font-family:'FiraSans-LightItalic';
+     src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300i" ); 
+      }
 	.st4{font-size:12px;}
 	.st5{fill:none;stroke:#FFFFFF;stroke-width:0.8417;stroke-miterlimit:10;}
 	.st6{opacity:0.88;}
-	.st7{font-family:'FiraSans-SemiBold';}
+	.st7{font-family:'FiraSans-SemiBold';
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:500" ); 
+    }
 	.st8{font-size:10.3603px;}
 	.st9{font-size:38px;}
 	.st10{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
 	.st11{fill:none;}
 	.st14{letter-spacing:1;}
 	.st15{letter-spacing:3;}
+    .st17{fill:#333333;}
+    .st16{fill:#FF6A38;}
+    .st18{fill:none;stroke:#000000;stroke-width:0.8163;stroke-miterlimit:10;stroke-opacity:0;}
+
+.total_rec{
+    fill:#627025;
+}
+.rec1{
+    fill:#516A27;
+}
+.total_font{
+    fill:#627025;
+	font-family:'FiraSans-SemiBold';
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:500" ) ;
+	font-size:13.706px;
+}
+
+.num_font{
+    fill:#516A27;
+	font-family:'FiraSans-Light';
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300" ) ;
+	font-size:14px;
+}
+
+.per_font{
+    fill:#516A27;
+	font-family:'FiraSans-Regular';
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300" ) ;
+	font-size:12px;
+}
+
+.line_tr{
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:0.6123;
+    stroke-miterlimit:10;
+}
+
+.text_co{
+    fill:#FFFFFF;
+	font-family:'FiraSans-Light';
+   src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300" ) ;
+	font-size:14px;
+}
+
+.circle_1{
+    fill:#CFE867;
+}
+
+.polyfill{
+    fill:none;
+}
+
+.group-viz01 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-viz01.faded {
+  opacity: 0.3;
+}
+
+
 
 .number_font{
     font-family:'FiraSans-SemiBold';
