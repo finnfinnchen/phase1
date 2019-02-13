@@ -10,7 +10,7 @@ $(document).ready(function() {
         autoScrolling: true,
         scrollOverflow: false,
         sectionsColor : ['#d1d191','#d1d191','#d0d38b','#d0d38b','#d0d38b','#a6bf6c','#a6bf6c','#a6bf6c','#a4be6b','#a4be6b','#04151F','#04151F','#04151F','#04151F'],
-        navigationTooltips : ['Homepage','introduction','Trede overview','Consumption growth','Superbowl','Growing production','American harvests',
+        navigationTooltips : ['Homepage','Introduction','Trade overview','Consumption growth','Superbowl','Growing production','American harvests',
         'Made in Mexico','New market','Trade flow','Resource usage','Losing','Chile water scarcity','Water footprint'],
     });
 
